@@ -48,9 +48,9 @@ librarian::shelf(
 #setwd("~/../../Box/External-MEF_DATA/Hydro/Streamflow/L0_subdaily/StripCharts")
 ```
 
-## Create sub-directories if necessary 
+Create sub-directories if necessary 
 
-```{r}
+```{r directories}
 output_dir <- file.path(here("intermediate_data"))
 
 if (!dir.exists(output_dir)){
